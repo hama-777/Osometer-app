@@ -13,5 +13,11 @@ cc_binary(
     ],
 )
 
-###aaasdaasdadadefgwdsdrtwssdsdaohihdfefwfafafegfjoopjsffdsfsfdsffsdffsdfsdssd
+cc_test(
+  name = "hellotest",
+  size = "small",
+  srcs = ["hello-world-test.cc"],
+  deps = ["@com_google_googletest//:gtest_main"],
+)
+###aaasdaasdadadefgwdsdrtwssdsdaohihdfefwfaffsafegfjoopjsffdsfsfdsffsdffsdfsdssd
 
